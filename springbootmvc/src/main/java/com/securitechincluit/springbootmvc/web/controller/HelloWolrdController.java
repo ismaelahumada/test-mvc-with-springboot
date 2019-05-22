@@ -16,7 +16,7 @@ public class HelloWolrdController {
     @RequestMapping(value = "/")
     public String getHelloWorld(ModelMap model){
         model.put("message", helloWorldService.getMessage());
-        return "hello-world";
+        return "hello-world- con cambio";
     }
 
     @RequestMapping(value="/welcome", method = RequestMethod.POST)
